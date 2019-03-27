@@ -1,0 +1,10 @@
+This bot can be altered to purchase any "hype" item on any given release day. 
+
+Improvements that can be made:
+
+- have the algorithm self deploy at exactly 1s after the drop time (after 1s to ensure that we will not be denied purchase
+due to different clock synchronizations on the company's server)
+
+- create a better method to bypass the captcha; This algorithm merely allocates time for the user to manually complete the
+captcha.
+
